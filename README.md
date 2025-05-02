@@ -1,4 +1,6 @@
 # Azure-Log-Analytics-Connector
+Run Kusto queries against a commercial Azure Log Analytics workspace for GCC Tenant
+
 
 ## 1. Register an Azure AD Application
 
