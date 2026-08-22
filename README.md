@@ -1,5 +1,5 @@
-# Azure-Log-Analytics-Connector
-Run Kusto queries against a commercial Azure Log Analytics workspace for GCC Tenant
+# Azure Log Analytics Connector
+Run Kusto queries against a commercial Azure Log Analytics workspace for a GCC tenant.
 
 
 ## 1. Register an Azure AD Application
@@ -49,14 +49,14 @@ Save the following values for later configuration:
 ## 4. Import the Swagger (OpenAPI) Definition
 
 1. In Power Automate, navigate to **Data** → **Custom connectors** → **+ New custom connector** → **Import an OpenAPI file**.  
-2. Upload the connector [Azure Log Analytics Connector](https://github.com/MSPFE2019/Azure-Log-Analytics-Connector/blob/main/Azure-Log-Analytics-GCC.swagger.json).  
+2. Upload the connector definition file [`Azure-Log-Analytics-GCC.swagger.json`](https://github.com/MSPFE2019/Azure-Log-Analytics-Connector/blob/main/Azure-Log-Analytics-GCC.swagger.json).  
 3. Click **Continue** and verify the operations appear as expected.  
 
 ## 5. Configure Connector Authentication
 
 1. Go to the connector’s **Security** tab.  
 2. Select **OAuth 2.0** as the **Authentication type**.  
-3. Enter the following:
+3. Enter the following values:
 
    | Field             | Value                                             |
    |-------------------|---------------------------------------------------|
